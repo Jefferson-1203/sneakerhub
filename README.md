@@ -1,4 +1,3 @@
-Descrição
 O SneakerHub é uma aplicação web completa para gerenciamento de um acervo digital de tênis, com:
 
 Back-end em Node.js + Express
