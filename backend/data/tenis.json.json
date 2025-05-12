@@ -1,0 +1,12 @@
+{
+  "id": "string",
+  "marca": "string",
+  "modelo": "string",
+  "tamanho": "number",
+  "cor": "string",
+  "preco": "number",
+  "anoLancamento": "number",
+  "disponivel": "boolean",
+  "descricao": "string",
+  "imagem": "string (URL)"
+}

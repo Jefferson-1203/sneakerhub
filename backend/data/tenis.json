@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1746976892125",
+    "marca": "Nike",
+    "modelo": "Air Jordan 1",
+    "tamanho": 42,
+    "cor": "Preto",
+    "preco": 2200,
+    "anoLancamento": 2025,
+    "descricao": "",
+    "imagem": "https://imgnike-a.akamaihd.net/1920x1920/0165105CA8.jpg",
+    "disponivel": true
+  },
+  {
+    "id": "1746977015101",
+    "marca": "Adidas",
+    "modelo": "Courtblack",
+    "tamanho": 42,
+    "cor": "Branco e Preto",
+    "preco": 500,
+    "anoLancamento": 2020,
+    "descricao": "",
+    "imagem": "https://static.netshoes.com.br/produtos/tenis-adidas-courtblock/40/FB9-3749-440/FB9-3749-440_zoom1.jpg?ts=1720809534&ims=1088x",
+    "disponivel": true
+  },
+  {
+    "id": "1747053044878",
+    "marca": "oakley",
+    "modelo": "halftrack",
+    "tamanho": 42,
+    "cor": "preto",
+    "preco": 700,
+    "anoLancamento": 2015,
+    "descricao": "tênis foda",
+    "imagem": "https://td2154.vteximg.com.br/arquivos/ids/1104344-1000-1000/98g52615-1.png?v=638797182896900000",
+    "disponivel": true
+  }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SneakerHub - Acervo Digital</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="logo">SNEAKER<span>HUB</span></h1>
+      <p class="slogan">Seu acervo digital de tênis premium</p>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Pesquisar por modelo, marca...">
+          <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <button id="addBtn" class="btn-add">+ Adicionar Tênis</button>
+      </section>
+
+      <section class="sneakers-grid" id="sneakersContainer">
+        <!-- Tênis serão carregados aqui via JavaScript -->
+      </section>
+    </main>
+
+    <!-- Modal para adicionar/editar tênis -->
+    <div class="modal" id="sneakerModal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2 id="modalTitle">Adicionar Novo Tênis</h2>
+        <form id="sneakerForm">
+          <input type="hidden" id="sneakerId">
+          <div class="form-group">
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" required>
+          </div>
+          <div class="form-group">
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo" required>
+          </div>
+          <div class="form-group">
+            <label for="tamanho">Tamanho</label>
+            <input type="number" id="tamanho" min="34" max="46" step="0.5" required>
+          </div>
+          <div class="form-group">
+            <label for="cor">Cor</label>
+            <input type="text" id="cor" required>
+          </div>
+          <div class="form-group">
+            <label for="preco">Preço (R$)</label>
+            <input type="number" id="preco" min="0" step="0.01" required>
+          </div>
+          <div class="form-group">
+            <label for="anoLancamento">Ano de Lançamento</label>
+            <input type="number" id="anoLancamento" min="1900" max="2025" required>
+          </div>
+          <div class="form-group">
+            <label for="descricao">Descrição</label>
+            <textarea id="descricao" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="imagem">URL da Imagem</label>
+            <input type="text" id="imagem">
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="disponivel" checked>
+            <label for="disponivel">Disponível</label>
+          </div>
+          <button type="submit" class="btn-submit">Salvar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
