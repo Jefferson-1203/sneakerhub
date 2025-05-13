@@ -17,7 +17,7 @@ Git (opcional)
 
 🚀 Como Rodar o Projeto Localmente
 1. Clone o repositório: 
-git clone https://github.com/seu-usuario/sneakerhub.git
+git clone https://github.com/Jefferson-1203/sneakerhub.git
 cd sneakerhub
 
 2. Instale as dependências no backend:
