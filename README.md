@@ -18,8 +18,7 @@ Git (opcional)
 🚀 Como Rodar o Projeto Localmente
 1. Clone o repositório: 
 git clone https://github.com/Jefferson-1203/sneakerhub.git
-cd sneakerhub
-
+cd backend
 2. Inicie o servidor back-end:
 npm init -y
 
