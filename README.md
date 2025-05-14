@@ -20,14 +20,11 @@ Git (opcional)
 git clone https://github.com/Jefferson-1203/sneakerhub.git
 cd sneakerhub
 
-2. Instale as dependências no backend:
-npm install
-
-3. Inicie o servidor back-end:
+2. Inicie o servidor back-end:
 npm init -y
 
    node index.js
 
-4. Acesse o front-end:
+3. Acesse o front-end:
 Abra o arquivo index.html no seu navegador
 
